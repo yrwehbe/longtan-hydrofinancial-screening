@@ -1,0 +1,10 @@
+# Core analysis (sufficient to reproduce the screening from a prepared analysis matrix)
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+
+# Fresh Google Earth Engine extraction only (imported lazily by the main script)
+earthengine-api>=0.1.380
+geemap>=0.30
+geopandas>=0.14
+pyproj>=3.5
